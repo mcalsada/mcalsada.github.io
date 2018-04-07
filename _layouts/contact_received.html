@@ -7,18 +7,22 @@
 
     {% include navbar.html %}
 
-    <div class="container-fluid p-0">
-      
-      <h2>Thanks!</h2>
-      <p>Thanks for getting in touch.</p>
-      <p class="mt-5">You will be redirected in 3 seconds</p>
-    <script>
-        var timer = setTimeout(function() {
-            window.location='http://matt.calsada.org/'
-        }, 3000);
-    </script>
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            <h1 class="mb-0">Matt
+            <span class="text-primary">Calsada</span>
+             </h1>
 
+             <h2>Thanks!</h2>
+             <p>Thanks for getting in touch.</p>
+             <p class="mt-5">You will be redirected in 3 seconds</p>
+           <script>
+               var timer = setTimeout(function() {
+                   window.location='http://matt.calsada.org/'
+               }, 3000);
+           </script>
     </div>
+    </section>
 
     {% include javascript.html %}
 
