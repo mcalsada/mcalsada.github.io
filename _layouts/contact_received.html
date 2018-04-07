@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="page-top" class="index">
+
+    {% include navbar.html %}
+
+    <div class="container-fluid p-0">
+      
+      <h2>Thanks!</h2>
+      <p>Thanks for getting in touch.</p>
+      <p class="mt-5">You will be redirected in 3 seconds</p>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='http://matt.calsada.org/'
+        }, 3000);
+    </script>
+
+    </div>
+
+    {% include javascript.html %}
+
+  </body>
+
+</html>
